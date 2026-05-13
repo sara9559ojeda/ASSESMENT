@@ -1,0 +1,27 @@
+# ══════════════════════════════════════════════════
+# RBKT Cybersecurity — .gitignore
+# ══════════════════════════════════════════════════
+
+# Variables de entorno (NUNCA subir al repo)
+.env
+
+# Datos confidenciales del cliente
+*.csv
+*PRUEBA*
+
+# Reportes generados (pueden contener info del cliente)
+*.pptx
+
+# Node
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Imágenes de marca
+Logo_blanco.png
+favicon*.png
